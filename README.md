@@ -1,16 +1,10 @@
 # angular_bloc
 
 ## Run
-`webdev serve`
-
-or
-
-`webdev serve --release`
+`webdev serve [--release]`
 
 ## Test
-execute this to test in no-release mode
-
-`pub run build_runner test --fail-on-severe -- -p chrome`
+`pub run build_runner test [--release] --fail-on-severe -- -p chrome`
 
 ## Where to find more info
 
